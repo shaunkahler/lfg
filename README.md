@@ -1,6 +1,6 @@
 # lfg
 
-CLI tool for quickly picking and opening project folders in [opencode](https://opencode.ai).
+CLI tool for launching project folders in [opencode](https://opencode.ai).
 
 ## Install
 
