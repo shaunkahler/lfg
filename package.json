@@ -1,0 +1,16 @@
+{
+  "name": "projectpicker",
+  "version": "1.0.0",
+  "description": "CLI tool to manage and browse project folders",
+  "main": "projectpicker.js",
+  "bin": {
+    "projectpicker": "./projectpicker.js",
+    "lfg": "./projectpicker.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "keywords": ["cli", "folder", "project", "navigation"],
+  "author": "",
+  "license": "MIT"
+}
