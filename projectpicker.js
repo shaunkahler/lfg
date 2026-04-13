@@ -60,9 +60,13 @@ function listFolders() {
 }
 
 function openInOpencode(folderPath) {
-  // exec(`start opencode "${folderPath}"`);
+  const { exec } = require('child_process');
+  exec(`start cmd /c opencode "${folderPath}"`);
+  exec(`start "" /D "${folderPath}" powershell`);
   console.log(`\nOpening: ${folderPath}`);
-  process.exit(0);
+  
+  // Give the OS a split second to spawn the external windows before closing LFG
+  setTimeout(() => process.exit(0), 500);
 }
 
 function displayOpeningScreen(noPrompt) {
