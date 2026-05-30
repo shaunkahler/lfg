@@ -2,8 +2,6 @@
 
 CLI tool for launching project folders in [opencode](https://opencode.ai).
 
-![LFG Main Menu](lfg1.png)
-
 ## Install
 
 ```bash
